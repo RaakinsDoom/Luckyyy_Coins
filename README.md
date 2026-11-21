@@ -10,4 +10,4 @@ This template is available under the CC0 license. Feel free to learn from it and
 
 ## Screenshots
 
-![Lucky Coin](screenshots/lucky-coin.png)
+![Lucky Coin](screenshots/model.png)
