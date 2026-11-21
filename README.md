@@ -1,2 +1,9 @@
 # Luckyyy_Coins
-A Minecraft Fabric mod featuring Lucky Coins, naturally generating Lucky Ore, and a magical chest-upgrading system with custom rewards.
+
+## Setup
+
+For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+
+## License
+
+This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
