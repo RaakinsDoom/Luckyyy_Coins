@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "luckyyy_coins",
+	"version": "${version}",
+	"name": "Luckyyy_Coins",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/luckyyy_coins/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.luckyyy.Luckyyy_Coins"
+		],
+		"client": [
+			"com.luckyyy.client.Luckyyy_CoinsClient"
+		]
+	},
+	"mixins": [
+		"luckyyy_coins.mixins.json",
+		{
+			"config": "luckyyy_coins.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
